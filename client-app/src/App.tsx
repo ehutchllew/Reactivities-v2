@@ -3,12 +3,12 @@ import { Header, List } from "semantic-ui-react";
 import "./App.css";
 
 function App() {
-    const [activities, setActivities] = useState([]);
+    const [activities, setActivities] = useState<object[]>([]);
     useEffect(() => {
         fetch("https://localhost:5001/api/activities")
             .then((resp) => resp.json())
             .then((json) => setActivities(json));
-    }, [activities]);
+    }, []);
     return (
         <div className="App">
             <Header as="h2" icon="users" content="Reactivities" />
