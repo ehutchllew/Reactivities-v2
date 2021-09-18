@@ -1,24 +1,18 @@
-import React, { useEffect } from "react";
-import logo from "./logo.svg";
+import React, { useEffect, useState } from "react";
+import { Header, List } from "semantic-ui-react";
 import "./App.css";
 
 function App() {
+    const [activities, setActivities] = useState([]);
+    useEffect(() => {
+        fetch("https://localhost:5001/api/activities")
+            .then((resp) => resp.json())
+            .then((json) => setActivities(json));
+    }, [activities]);
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            <Header as="h2" icon="users" content="Reactivities" />
+            <List items={activities} />
         </div>
     );
 }
