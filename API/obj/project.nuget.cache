@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "aJ+kZ7NVMyjOVwbUNrtxeNKk0l302Kx4eBaXLGszFYE6k7J3QH42RB1N5ygz4OWgeo8w8wrlsARRREIVr6t4+g==",
+  "dgSpecHash": "0QKmqUQXcd1Zi/Euv1zPYjo6SSysHtltNvjH2fq6AdQKH02mg0pU8EHxbJ19lJKQAz8wWD5JoMN10v2o/i04KQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Evan Admin\\Documents\\code\\csharp\\Reactivities-v2\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Evan Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Evan Admin\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Evan Admin\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
