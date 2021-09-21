@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0QKmqUQXcd1Zi/Euv1zPYjo6SSysHtltNvjH2fq6AdQKH02mg0pU8EHxbJ19lJKQAz8wWD5JoMN10v2o/i04KQ==",
+  "dgSpecHash": "sfl8YlHqRYEq/LJs9609jBmQwc0T3xM9XSr3CqjqhZt9H7INL2/2hGu8M4pppHp2dLLiskUNMWMp5PKUk+5TNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Evan Admin\\Documents\\code\\csharp\\Reactivities-v2\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Evan Admin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Evan Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
@@ -49,6 +51,7 @@
     "C:\\Users\\Evan Admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Evan Admin\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Evan Admin\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
