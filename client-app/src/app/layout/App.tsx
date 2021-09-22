@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Header, List } from "semantic-ui-react";
-import "./App.css";
 
 function App() {
     const [activities, setActivities] = useState<object[]>([]);

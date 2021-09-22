@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Application.Activities;
 using Domain;
@@ -11,9 +12,9 @@ namespace API.Controllers
     {
 
         [HttpGet]
-        public async Task<ActionResult<List<Activity>>> GetActivities()
+        public async Task<ActionResult<List<Activity>>> GetActivities(CancellationToken ct)
         {
-            return await this.Mediator.Send(new List.Query());
+            return await this.Mediator.Send(new List.Query(), ct);
         }
 
         [HttpGet("{id}")]
